@@ -1,4 +1,4 @@
-#### Introduction to BouncyCastle with Java
+### Introduction to BouncyCastle with Java
 
 =====================================================
 ## 1. Overview
