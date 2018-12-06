@@ -1,6 +1,6 @@
 ## Introduction to BouncyCastle with Java
 
-=====================================================
+==========================================================
 #### 1. Overview
 BouncyCastle is a Java library that complements the default Java Cryptographic Extension (JCE).
 In this introductory article, we’re going to show how to use BouncyCastle to perform cryptographic operations, such as encryption and signature.
@@ -31,3 +31,11 @@ Signature and verification are cryptographic operations that validate the authen
 In this article, we’ve discovered how to use the BouncyCastle library to perform basic cryptographic operations, such as encryption and signature.
 In a real-world situation, we often want to sign then encrypt our data, that way, only the recipient is able to decrypt it using the private key, and check its authenticity based on the digital signature.
 The code snippets can be found, as always, over on GitHub.
+==========================================================
+
+
+##Service provider framework in java
+
+####As per the book "Effecive java" what does the statement "The class of the object returned by a static factory method need not even ####exist at the time the class containing the method is written." means in following paragraph:
+
+####The class of the object returned by a static factory method need not even exist at the time the class containing the method is ####written. Such flexible static factory methods form the basis of service provider frameworks, such as the Java Database Connectivity ####API (JDBC). A service provider framework is a system in which multiple service providers implement a service, and the system makes ####the implementations available to its clients, decoupling them from the implementations
