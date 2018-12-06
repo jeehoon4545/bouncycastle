@@ -32,7 +32,7 @@ In this article, we’ve discovered how to use the BouncyCastle library to perfo
 In a real-world situation, we often want to sign then encrypt our data, that way, only the recipient is able to decrypt it using the private key, and check its authenticity based on the digital signature.
 The code snippets can be found, as always, over on GitHub.
 
-==========================================================
+==========================================================  
 ##Service provider framework in java
 
 As per the book "Effecive java" what does the statement "The class of the object returned by a static factory method need not even exist at the time the class containing the method is written." means in following paragraph:
