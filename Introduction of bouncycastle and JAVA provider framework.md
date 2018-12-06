@@ -1,7 +1,7 @@
 ## Introduction to BouncyCastle with Java
 ==========================================================
 
-#### 1. Overview
+#### *1. Overview
 BouncyCastle is a Java library that complements the default Java Cryptographic Extension (JCE).
 In this introductory article, we’re going to show how to use BouncyCastle to perform cryptographic operations, such as encryption and signature.
 
